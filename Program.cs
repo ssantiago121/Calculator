@@ -6,7 +6,7 @@ namespace Calculator
     {
         static void Main(string[] args)
         {
-            Subtracao();
+            Multiplicacao();
         }
 
         static void Somar()
@@ -22,7 +22,7 @@ namespace Calculator
 
             float resultado = v1 + v2;
 
-            Console.WriteLine($"A Soma é de {resultado}"); // Interpolação de String
+            Console.WriteLine($"O valor da Soma é {resultado}!"); // Interpolação de String
 
             // ------ Outras formas válidas de apresentar o resultado ------
             // Console.WriteLine("A Soma é de " + resultado); // Concatenação de String
@@ -41,8 +41,37 @@ namespace Calculator
 
             float resultado = v1 - v2;
 
-            Console.WriteLine($"A Subtração é de {resultado}");
+            Console.WriteLine($"O Valor da Subtração é de {resultado}!");
 
+        }
+
+        static void Divisao()
+        {
+            Console.Clear();
+            
+            Console.WriteLine("Digite o primeiro valor: ");
+            float v1 = float.Parse(Console.ReadLine());
+
+            Console.WriteLine("Digite o segundo valor: ");
+            float v2 = float.Parse(Console.ReadLine());
+
+            float resultado = v1 / v2;
+
+            Console.WriteLine($"O Valor da Divisão é {resultado}!");
+        }
+
+        static void Multiplicacao()
+        {
+            Console.Clear();
+            Console.WriteLine("Digite o primeir valor: ");
+            float v1 = float.Parse(Console.ReadLine());
+
+            Console.WriteLine("Digite o segundo valor: ");
+            float v2 = float.Parse(Console.ReadLine());
+
+            float resultado = v1 * v2;
+
+            Console.WriteLine($"O Valor da Multiplicação é {resultado}!");
         }
     }
 }

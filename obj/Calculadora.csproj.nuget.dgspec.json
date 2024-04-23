@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Fabio\\Desktop\\baltaio\\Calculadora\\Calculadora.csproj": {}
+    "C:\\Users\\Fabio\\Desktop\\baltaio\\Calculator\\Calculadora.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Fabio\\Desktop\\baltaio\\Calculadora\\Calculadora.csproj": {
+    "C:\\Users\\Fabio\\Desktop\\baltaio\\Calculator\\Calculadora.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Fabio\\Desktop\\baltaio\\Calculadora\\Calculadora.csproj",
+        "projectUniqueName": "C:\\Users\\Fabio\\Desktop\\baltaio\\Calculator\\Calculadora.csproj",
         "projectName": "Calculadora",
-        "projectPath": "C:\\Users\\Fabio\\Desktop\\baltaio\\Calculadora\\Calculadora.csproj",
+        "projectPath": "C:\\Users\\Fabio\\Desktop\\baltaio\\Calculator\\Calculadora.csproj",
         "packagesPath": "C:\\Users\\Fabio\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Fabio\\Desktop\\baltaio\\Calculadora\\obj\\",
+        "outputPath": "C:\\Users\\Fabio\\Desktop\\baltaio\\Calculator\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Fabio\\AppData\\Roaming\\NuGet\\NuGet.Config"
